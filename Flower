@@ -1,0 +1,19 @@
+# Flower 1
+def draw_flower():
+    """
+    Draw a flower pattern using asterisk characters.
+    """
+    
+    # Stem of the flower
+    print(" " * 4 + "|")
+    
+    # Petals of the flower
+    for i in range(3):
+        print(" " * (2-i) + "*" * (2*i+1) + " " * (2-i))
+
+    # Additional petals for a fuller look
+    print(" " * 2 + "*" * 5 + " " * 2)
+    print(" " * 3 + "*" * 3 + " " * 3)
+
+# Call the function to draw the flower
+draw_flower()
