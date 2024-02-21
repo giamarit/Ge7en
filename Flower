@@ -1,4 +1,4 @@
-# Flower 1
+# Flower 01
 def draw_flower():
     """
     Draw a flower pattern using asterisk characters.
