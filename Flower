@@ -1,5 +1,4 @@
-# Flower 05555555555
-def draw_flower():
+# Flower 05666666666
     """
     Draw a flower pattern using asterisk characters.
     """
